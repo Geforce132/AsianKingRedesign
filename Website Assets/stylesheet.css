@@ -231,7 +231,7 @@ nav .open {
 nav a.navbar-brand {
   flex: 1 1 70%;
   max-width: 70%;
-  background: url("img/logo.svg") no-repeat 0 0/contain transparent;
+  background: url("img/logo-type.svg") no-repeat 0 0/contain transparent;
   display: block;
   overflow: hidden;
   width: 100%;
@@ -240,7 +240,7 @@ nav a.navbar-brand {
 }
 
 nav button.navbar-toggler {
-  background-color: var(--primary-color);
+  background-color: var(--dark-red);
   border: 0;
   padding: calc(1em / 1.618) 1em;
   color: var(--white);
@@ -274,29 +274,11 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  color: var(--primary-color);
-  border-bottom: 3px solid var(--primary-color);
+  color: var(--dark-red);
+  border-bottom: 3px solid var(--dark-red);
   border-spacing: 1px;
 }
 
-nav .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-link {
-  color: var(--black);
-}
-
-nav .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-link:hover {
-  background-color: var(--primary-color);
-  color: var(--white);
-}
-
-nav .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-toggle:after {
-  font-family: FontAwesome;
-  content: "\f0d7";
-  margin-left: 1.5rem;
-}
-
-nav .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu {
-  display: none;
-}
 
 @media screen and (min-width: 720px) {}
 
