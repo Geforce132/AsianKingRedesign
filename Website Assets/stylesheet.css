@@ -231,7 +231,7 @@ nav .open {
 nav a.navbar-brand {
   flex: 1 1 70%;
   max-width: 70%;
-  background: url("img/logo-type.svg") no-repeat 0 0/contain transparent;
+  background: url("img/logo-type.png") no-repeat 0 0/contain transparent;
   display: block;
   overflow: hidden;
   width: 100%;
@@ -240,7 +240,7 @@ nav a.navbar-brand {
 }
 
 nav button.navbar-toggler {
-  background-color: var(--dark-red);
+  background-color: var(--primary-color);
   border: 0;
   padding: calc(1em / 1.618) 1em;
   color: var(--white);
