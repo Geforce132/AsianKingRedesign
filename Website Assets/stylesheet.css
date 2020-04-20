@@ -214,12 +214,23 @@ a:hover {
 
 label {
   cursor: pointer;
+
 }
 input{
-	border:none;
+	border: solid 1px var(--light-gray);
+  border-radius:2%;
+  padding:2px;
+  height:3em;
 }
 textarea{
-	border:none;
+  border: solid 1px var(--light-gray);
+  border-radius:1%;
+  padding:2px;
+  height:3em;
+}
+select{
+    height:3.5em;
+    color:var(--dark-red);
 }
 
 /* Navigation */
@@ -572,7 +583,7 @@ fieldset{
 	align-content:center;
 }
 .home-contact-image-container{
-display:none;	
+display:none;
 }
 
 .home-form{
@@ -581,7 +592,7 @@ display:none;
 	justify-content:flex-start;
 	align-items:center;
 	align-content:flex-start;
-	
+
 }
 .home-form form{
 	width:100%;
@@ -598,7 +609,7 @@ flex-flow:column;
 justify-content:flex-start;
 align-items:center;
 align-content:flex-start;
-width:100%;	
+width:100%;
 }
 
 .home-form button, .home-form input, .home-form textarea{
@@ -612,10 +623,9 @@ width:100%;
 	flex-flow:row wrap;
 	align-items:center;
 	justify-content: center;
-	
 }
 .form-check label{
-	font-family:Montserrat, sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight:700;
 }
 .home-form form .form-group{
@@ -646,7 +656,7 @@ width:100%;
 	width:133px;
 	height:7px;
 	border-radius:50px;
-	
+
 }
 .home-submit{
 	display:flex;
@@ -663,14 +673,14 @@ width:100%;
 	align-self:center;
 }
 
-	
+
 
 
 }
 
 @media screen and (min-width:992px){
-	
-	
+
+
 .home-contact-image-container{
 	display:flex;
 	justify-content:center;
@@ -683,11 +693,23 @@ width:100%;
 	.home-contact-image img{
 		width:100%;
 	}
+  .form-check{
+  	align-items:space-around;
+  	justify-content:flex-start;
+    align-content:space-between;
+  }
+  .home-form hr{
+margin-bottom:5%;
+
+
+  }
 }
 @media screen and (min-width:1200px){
-	.home-form{
-		margin-top:5%;
-	}
+  .home-form{
+  margin:auto;
+
+
+  }
 
 }
 
@@ -722,7 +744,7 @@ fieldset{
 	align-content:center;
 }
 .sign-in-container, .sign-in-md-container{
-display:none;	
+display:none;
 }
 
 .sign-in-form{
@@ -731,7 +753,7 @@ display:none;
 	justify-content:flex-start;
 	align-items:center;
 	align-content:flex-start;
-	
+
 }
 .sign-in-form form{
 	width:100%;
@@ -748,7 +770,7 @@ flex-flow:column;
 justify-content:flex-start;
 align-items:center;
 align-content:flex-start;
-width:100%;	
+width:100%;
 }
 
 .sign-in-form button, .sign-in-form input, .sign-in-form textarea{
@@ -757,18 +779,7 @@ width:100%;
 	line-height:inherit;
 	margin:0;
 }
-.form-check{
-	display:flex;
-	flex-flow:row wrap;
-	align-items:center;
-	justify-content: center;
-	
-}
-.form-check label{
-	font-family:Montserrat, sans-serif;
-	font-weight:700;
-	color:var(--black)!important;
-}
+
 .sign-in-form form .form-group{
 	margin-bottom:1.5rem;
 		width:80%;
@@ -799,6 +810,8 @@ width:100%;
 }
 
 
+
+
 @media screen and (min-width:576px){
 
 .sign-in-submit #submit {
@@ -807,13 +820,13 @@ width:100%;
 	align-self:center;
 }
 
-	
+
 .sign-in-md-container{
 display:flex;
 	justify-content:flex-start;
 	align-items:flex-start;
 	align-content:flex-start;
-	
+
 }
 	.sign-in-md-image, .sign-in-md-image img{
 		width:100%;
@@ -826,7 +839,7 @@ display:flex;
 		flex-flow:row wrap!important;
 		justify-content:center!important;
 		padding:0% 5%;
-		
+
 	}
 	.sign-in-form .form-row .form-group{
 		padding:1%;
@@ -847,11 +860,11 @@ display:flex;
 
 @media screen and (min-width:992px){
 	.sign-in-md-container{
-display:none;	
+display:none;
 }
 	.sign-in-form{
 		max-width:100%;
-	
+
 	}
 .sign-in-container{
 	display:flex;
@@ -870,8 +883,162 @@ display:none;
 	max-width:20%;
 }}
 @media screen and (min-width:1200px){
-	
+
+
+}
+}
+/*Sign In and Sign Up form ends*/
+
+
+/*Billing Form Starts*/
+
+
+.billing-form p{
+	font-size:.8em;
+	color:var(--light-gray);
+	margin:0;
+}
+
+.billing-form fieldset{
+	width:90%;
+	display:flex;
+  flex-flow:row wrap;
+	align-items:center;
+	justify-content:center;
+	align-content:center;
+  margin:2.5%;
+}
+
+.billing-form{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	align-content:flex-start;
+
+}
+.billing-form form{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	align-content:flex-start;
+}
+
+.billing-form form .form-row{
+display:flex;
+flex-flow:row wrap;
+justify-content:flex-start;
+align-items:center;
+align-content:flex-start;
+width:100%;
+}
+
+.billing-form button, .billing-form input, .billing-form textarea{
+	font-family:inherit;
+	font-size:inherit;
+	line-height:inherit;
+	margin:0;
+}
+
+.billing-form form .form-group{
+	margin-bottom:1.5rem;
+		width:80%;
+}
+.billing-form form .form-control{
+	display:block;
+	width:100%;
+}
+.sign-in-submit{
+	display:flex;
+	flex-flow:column;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.billing-submit #submit  {
+  max-width:50%;
+	height: 60px;
+	border-radius:2%;
+	background-color:var(--dark-red);
+	border:none;
+	color:var( --white);
+}
+.billing-submit{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  align-content:center;
+}
+
+.billing-form h2{
+	color:var(--black);
+	font-weight:bold;
+}
+
+.card-visa{
+  display:flex;
+  flex-flow:row wrap;
+  align-items:flex-start;
+  justify-content:space-between;
+  align-content:center;
+
+}
+i.fab.fa-cc-visa::before{
+  color:var(--yellow);
+  font-size:3em;
+}
+input#card.form-control{
+  max-width:60%;
+}
+.billing-form .form-row{
+padding:0% 8%;
 
 }
 
-/*home contact form ends*/
+.billing-form legend{
+  font-size:2em;
+  color: var(--black);
+  font-family:inherit;
+  margin:5%;
+  font-weight:bold;
+}
+
+
+
+@media screen and (min-width:576px){
+
+
+}
+
+@media screen and (min-width:768px){
+  .billing-form form{
+  	flex-flow:row wrap;
+  	justify-content:space-around;
+  	align-items:flex-start;
+  	align-content:flex-start;
+  }}
+
+@media screen and (min-width:992px){
+  .billing-form form{
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:flex-start;
+    align-content:flex-start;
+  }
+  i.fab.fa-cc-visa::before{
+    color:var(--yellow);
+    font-size:3.5em;
+  }
+
+
+
+
+}
+
+@media screen and (min-width:1200px){
+
+
+}
