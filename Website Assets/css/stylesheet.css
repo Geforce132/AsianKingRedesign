@@ -256,7 +256,7 @@ nav .open {
 nav a.navbar-brand {
   flex: 1 1 70%;
   max-width: 70%;
-  background: url("img/logo-type.png") no-repeat 0 0/contain transparent;
+  background: url("../images/logo-type.png") no-repeat 0 0/contain transparent;
   display: block;
   overflow: hidden;
   width: 100%;
@@ -1075,6 +1075,7 @@ padding:0% 8%;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
+  text-align: center;
 }
 .hero-content .hero-description .hero-text h2{
   color: var(--white);
@@ -1084,9 +1085,13 @@ padding:0% 8%;
   color: var(--white);
 }
 
+.hero-content .hero-description .hero-text a {
+  align-self: center;
+}
+
 .hero-content .hero-image{
 	order: -1;
-  background: url("images/hero-home.png") no-repeat;
+  background: url("../images/hero-home.png") no-repeat;
   background-size: cover;
   background-position: center;
   width: 30em;
@@ -1102,6 +1107,15 @@ padding:0% 8%;
 	.hero-content .hero-image{
 		order: 1;
 	}
+
+  .hero-content .hero-description .hero-text{
+    color: var(--white);
+    text-align: left;
+  }
+
+  .hero-content .hero-description .hero-text a {
+    align-self: flex-start;
+  }
 }
 /*end of hero component*/
 
@@ -1166,7 +1180,7 @@ padding:0% 8%;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: linear-gradient(var(--primary-color-overlay), var(--primary-color-overlay)),url("images/form-join.png") center center no-repeat;
+  background: linear-gradient(var(--primary-color-overlay), var(--primary-color-overlay)),url("../images/form-join.jpg") var(--primary-color) center center no-repeat;
   background-size: cover;
   color: var(--white);
   text-align: center;
