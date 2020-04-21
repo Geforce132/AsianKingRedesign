@@ -57,6 +57,7 @@ table {
 :root {
   --primary-color: #E4A50D;
   --dark-red: #870C17;
+  --dark-red-transparent: rgba(135, 12, 23, 0.23);
   --red:#DB0014;
   --yellow: #E4A50D;
   --dark-gray: #444444;
@@ -1180,3 +1181,38 @@ padding:0% 8%;
 
 
 /*end of banner component*/
+
+
+/*Menu*/
+
+.menu-nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+main .menu-nav ul {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+}
+
+main .menu-nav ul li {
+  margin-bottom: 0.5rem;
+}
+
+main .menu-nav .category-selected {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+main .menu-content-area {
+  background-color: var(--dark-red-transparent);
+  width: 100%;
+}
+
+
+/*End of menu component*/
