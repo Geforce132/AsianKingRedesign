@@ -81,9 +81,9 @@ table {
     --col-7:calc( var(--grid) * 7);
     --col-8:calc( var(--grid) * 8);
     --col-9:calc( var(--grid) * 9);
+
   }
 
-}
 
 
 /* MAIN CSS STYLE*/
@@ -110,6 +110,24 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   font-family: 'Roboto', sans-serif;
 }
+
+input{
+  border: solid 1px var(--light-gray);
+  border-radius:2%;
+  padding:0 10px;
+  height:3em;
+}
+textarea{
+  border: solid 1px var(--light-gray);
+  border-radius:1%;
+  padding:2px;
+  height:3em;
+}
+select{
+    height:3.5em;
+    color:var(--dark-red);
+}
+
 
 /*Headers */
 
@@ -219,22 +237,7 @@ label {
   cursor: pointer;
 
 }
-input{
-	border: solid 1px var(--light-gray);
-  border-radius:2%;
-  padding:2px;
-  height:3em;
-}
-textarea{
-  border: solid 1px var(--light-gray);
-  border-radius:1%;
-  padding:2px;
-  height:3em;
-}
-select{
-    height:3.5em;
-    color:var(--dark-red);
-}
+
 
 /* Navigation */
 
@@ -582,7 +585,9 @@ fieldset{
 	justify-content:center;
 	align-content:center;
 }
-
+.home-contact-image-container{
+  display:none;
+}
 
 .home-form{
 	display:flex;
