@@ -339,7 +339,7 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
 }
 
 /* End of Navigation */
-
+/*start of grid*/
 .container{
 width:100%;
 margin-left:auto;
@@ -571,9 +571,6 @@ max-width: var(--col-2);
 }
 
 /* Grid system ends*/
-
-
-
 
 
 /*home contact form and Join Form starts */
