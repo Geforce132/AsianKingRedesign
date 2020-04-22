@@ -1184,6 +1184,10 @@ padding:0% 8%;
 
 /*Menu*/
 
+.row.menu-page {
+  flex-wrap: wrap;
+}
+
 .menu-nav {
   display: flex;
   margin-left: auto;
@@ -1283,6 +1287,9 @@ main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-p
 /* Tablet */
 @media screen and (min-width: 768px) {
 
+  .row.menu-page {
+    flex-wrap: nowrap;
+  }
 
   main .menu-nav ul {
     width: 80%;
@@ -1316,7 +1323,6 @@ main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-p
     display: block;
     margin: 1rem auto 0rem auto;
     width: 100%;
-    max-width: 100%;
     text-align: center;
   }
 }
