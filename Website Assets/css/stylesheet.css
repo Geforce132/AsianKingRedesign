@@ -1237,10 +1237,7 @@ main .menu-item {
   align-items: center;
   width: 50%;
   max-width: 50%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -1319,6 +1316,7 @@ main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-p
     display: block;
     margin: 1rem auto 0rem auto;
     width: 100%;
+    max-width: 100%;
     text-align: center;
   }
 }
