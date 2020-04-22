@@ -57,6 +57,7 @@ table {
 :root {
   --primary-color: #E4A50D;
   --primary-color-overlay: rgba(228, 165, 13, 0.74);
+  --primary-color-transparent: rgba(228, 165, 13, 0.15);
   --dark-red: #870C17;
   --dark-red-transparent: rgba(135, 12, 23, 0.23);
   --red:#DB0014;
@@ -1355,3 +1356,80 @@ main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-p
 }
 
 /*End of menu component*/
+
+/* Cart */
+
+main .cart-progress-bar {
+  display: flex;
+  width: 100%;
+}
+
+main .cart-progress-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .cart-progress-bar ul li {
+  justify-content: space-around;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px var(--black-transparent);
+}
+
+main .cart-progress-bar .active-cart-page {
+  color: var(--primary-color);
+}
+
+main .cart-items {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+main .cart-item {
+  display: flex;
+  max-width: 80%;
+  margin-bottom: 1rem;
+}
+
+main .cart-item img {
+  margin-top: 0.25rem;
+}
+
+main .cart-item h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main .cart-item .item-description {
+  margin-left: 1rem;
+}
+
+main .cart-item .item-description .item-price {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+main .cart-item .item-description select {
+  margin-top: -3rem;
+}
+
+main .price-banner {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--primary-color-transparent);
+}
+
+/* End of cart component */
