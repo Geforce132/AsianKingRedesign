@@ -1424,12 +1424,42 @@ main .cart-item .item-description select {
 
 main .price-banner {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   width: 100%;
-  justify-content: space-around;
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var(--primary-color-transparent);
+}
+
+main .banner-text-area {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+main .cart-next-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+main .cart-next-button #cart-next {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 4rem 2rem 4rem;
+  border: none;
+  border-radius: 6%;
+  background-color: var(--dark-red);
+  color: var( --white);
+}
+
+@media screen and (min-width: 768px) {
+  main .cart-progress-bar ul {
+    justify-content: space-evenly;
+  }
 }
 
 /* End of cart component */
