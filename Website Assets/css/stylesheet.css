@@ -1177,14 +1177,9 @@ padding:0% 8%;
   font-weight: 600;
 }
 
-
-
-
 /*end of banner component*/
 
-
 /*Menu*/
-
 .row.menu-page {
   flex-wrap: wrap;
 }
@@ -1358,7 +1353,6 @@ main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-p
 /*End of menu component*/
 
 /* Cart */
-
 main .cart-progress-bar {
   display: flex;
   width: 100%;
@@ -1456,9 +1450,56 @@ main .cart-next-button #cart-next {
   color: var( --white);
 }
 
+/* Tablet */
 @media screen and (min-width: 768px) {
   main .cart-progress-bar ul {
     justify-content: space-evenly;
+  }
+
+  main .cart-item img {
+    width: 150px;
+    height: 150px;
+  }
+
+  main .price-banner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main .cart-next-button #cart-next {
+    margin-top: 4rem;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1150px) {
+  main .cart-progress-bar ul {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main .cart-items {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main .cart-item {
+    margin-bottom: 2rem;
+  }
+
+  main .cart-item img {
+    width: 400px;
+  }
+
+  main .price-banner {
+    width: 56%;
+  }
+
+  main .cart-next-button #cart-next {
+    padding: 1rem 5rem 2rem 5rem;
   }
 }
 
