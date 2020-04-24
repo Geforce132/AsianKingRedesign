@@ -1639,13 +1639,13 @@ main .cart-next-button #cart-next {
 
   }
 
-.section, .boxes, h2 {
+.section, .boxes, .section.boxes h2 {
   color:var(--primary-color);
   font-size:2.0em;
 
 }
 
-.section, .boxes, p {
+.section, .boxes, .section.boxes p {
   color:var(--primary-color);
   font-size:1.5em;
 }
