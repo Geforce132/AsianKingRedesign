@@ -1066,6 +1066,7 @@ padding:0% 8%;
 .hero-content .hero-description .hero-text h2{
   color: var(--white);
   font-size: 3em;
+  line-height: 4rem;
 }
 .hero-content .hero-description .hero-text p{
   color: var(--white);
@@ -1639,15 +1640,17 @@ main .cart-next-button #cart-next {
 
   }
 
-.section, .boxes, .section.boxes h2 {
+.section.boxes h2 {
   color:var(--primary-color);
-  font-size:2.0em;
-
+  font-size:3.25em;
 }
 
-.section, .boxes, .section.boxes p {
+.section.boxes p {
   color:var(--primary-color);
-  font-size:1.5em;
+  font-size:1.35em;
+  text-align:center;
+  max-width:80%;
+  line-height:2rem;
 }
 
 /*end of become a king */
