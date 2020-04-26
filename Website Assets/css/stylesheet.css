@@ -1654,3 +1654,118 @@ main .cart-next-button #cart-next {
 }
 
 /*end of become a king */
+
+/*start of specials */
+
+main .specials-boxes, .row {
+   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow:hidden;
+  position:relative;
+}
+
+.specials-boxes img {
+  display:block;
+  width:295px;
+  height:213px;
+
+
+}
+ main,.specials-header {
+ display:flex;
+ align-content: center;
+ align-items:center;
+ justify-content: center;
+ flex-flow:row;
+  color:var(--primary-color);
+}
+
+
+.text-specials1 {
+ position: absolute;
+  width: 295px;
+  height:213px;
+  z-index: 1;
+  top:185px;
+  -webkit-transition:0.1s;
+  -moz-transition:0.1s;
+  -ms-transition:0.1s;
+  transition : .1s;
+  background: rgba(32,32,32,0.9);
+  display:flex;
+  align-items: center;
+  align-content:center;
+  flex-flow: column;
+  text-align:center;
+   }
+
+.text-specials2, .text-specials3, .text-specials4 {
+ position: absolute;
+  width: 295px;
+  height:213px;
+  z-index: 1;
+  top:185px;
+  -webkit-transition:0.1s;
+  -moz-transition:0.1s;
+  -ms-transition:0.1s;
+  transition : .1s;
+  background: var(--primary-color);
+  display:flex;
+  align-items: center;
+  align-content:center;
+  flex-flow: column;
+  text-align:center;
+   }
+
+   .specials-boxes:hover .text-specials1,.text-specials2, .text-specials3, .text-specials4
+   {
+    top:0;
+   }
+
+ .text-specials1 p {
+position: absolute;
+color:white;
+display:flex;
+flex-direction: center;
+align-content: center;
+align-items: center;
+padding-top:70px;
+ }
+
+.text-specials2 p {
+  position: absolute;
+  color:white;
+  display:flex;
+  flex-direction: center;
+  align-content: center;
+  align-items: center;
+  padding-top:50px;
+}
+
+.text-specials3  p {
+  position: absolute;
+  color:white;
+  display:flex;
+  flex-direction: center;
+  align-content: center;
+  align-items: center;
+  padding-top:50px;
+}
+
+.text-specials4  p {
+  position: absolute;
+  color:white;
+  display:flex;
+  flex-direction: center;
+  align-content: center;
+  align-items: center;
+  padding-top:50px;
+}
+
+.
+/*end of specials*/
