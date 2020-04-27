@@ -1596,7 +1596,8 @@ main .menu-item {
   padding-right: 1rem;
   padding-bottom: 1rem;
   background-color: var(--white);
-  box-shadow: 0px 0px 8px 0px var(--black-transparent);
+  box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.19);
+
 }
 
 main .menu-item img {
