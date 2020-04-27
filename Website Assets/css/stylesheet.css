@@ -27,6 +27,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
+
 }
 
 ol, ul {
@@ -2124,5 +2125,25 @@ padding-top:70px;
   padding-top:50px;
 }
 
-.
+
 /*end of specials*/
+
+/*start of chef component*/
+.chef{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  background: url("../images/chef.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+
+/*end of chef*/
