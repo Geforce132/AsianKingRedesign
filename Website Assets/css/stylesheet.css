@@ -1657,7 +1657,7 @@ main .cart-next-button #cart-next {
 
 /*start of specials */
 
-main .specials-boxes, .row {
+main .specials-boxes {
    display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -1676,7 +1676,7 @@ main .specials-boxes, .row {
 
 
 }
- main,.specials-header {
+ main .specials-header {
  display:flex;
  align-content: center;
  align-items:center;
