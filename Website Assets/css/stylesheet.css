@@ -66,6 +66,7 @@ table {
   --light-gray: #A9A9A9;
   --light-gray-transparent: rgba(169, 169, 169, 0.60);
   --black: #1A1818;
+  --black-transparent: rgba(0, 0, 0, 0.6);
   --white: #ffffff;
   --offset: 1rem;
   --border-size: 2px;
@@ -355,10 +356,14 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link, nav .navbar-collapse .navb
   display: none;
 }
 
-.cart {padding-right: 1rem;
+.cart {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
 }
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: var(--black);
+  text-align: center;
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
