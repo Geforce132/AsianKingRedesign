@@ -57,11 +57,14 @@ table {
 
 :root {
   --primary-color: #E4A50D;
+  --primary-color-transparent: rgba(228, 165, 13, 0.15);
   --dark-red: #870C17;
+  --dark-red-transparent: rgba(135, 12, 23, 0.23);
   --red:#DB0014;
   --yellow: #E4A50D;
   --dark-gray: #444444;
   --light-gray: #A9A9A9;
+  --light-gray-transparent: rgba(169, 169, 169, 0.60);
   --black: #1A1818;
   --white: #ffffff;
   --offset: 1rem;
@@ -420,7 +423,7 @@ footer  {
   width: 100%;
   color: white;
   padding: 2rem;
- 
+
 }
 
 footer .desktop {
