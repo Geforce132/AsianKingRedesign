@@ -15,19 +15,28 @@
 <body>
 
   <main>
-    <div id="error" class="popup hidden">
-    <div class="popup-container">
-    <button class="popup-close">x</button>
-    <img src="images/error-message.jpg" alt="Guy leaning against giant envelope with a red X above it.">
-    <h2>Please Try Again</h2>
-    <p>There was an error with sending your message.</p>
-    </div>
-    </div>
+
+<div id="success" class="popup hidden">
+<div class="popup-container">
+<button class="popup-close">x</button>
+<img src="images/success-message.jpg" alt="Guy leaning against giant envelope with a green check mark above it.">
+<h2>Thank You</h2>
+<p>Your message has been sent.</p>
+</div>
+</div>
+
+
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5">
-					<div class="home-contact-image-container">
-						<div class="home-contact-image"><img alt="Girl looking at phone." src="images/form-contact.jpg"></div>
+				<div class="col-sm-9 col-lg-5">
+					<div class="contact-image-container">
+            	<div class="home-contact-image">
+            <picture>
+          <source media="(max-width: 992px)" srcset="images/form-contact-md.jpg">
+          <source media="(min-width: 576px)" srcset="images/form-contact.jpg">
+          <img src="images/form-contact.jpg" alt="Girl looking at phone.">
+          </picture>
+				</div>
 					</div>
 				</div>
 				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-4">

@@ -33,8 +33,26 @@ $(function(){
     var index = listOfElements.indexOf(liClicked);
 
     // remove the category-selected class from the previously selected category
-    // and add it to the category which was clicked on 
+    // and add it to the category which was clicked on
     $(menuContentArea).children().removeClass("category-selected");
     $(menuContentArea).children()[index].classList.add("category-selected");
   });
+});
+
+//pop up stuff//
+$(function)(){
+$(".popup-handler, .popup-close").on("click", function(){
+  let popupSelector = $(this).attr("data-target");
+  //alert(popupSelector);
+  popupHandler(popupSelector);
+
+});
+
+$(".popup-close").on("click", function(){
+$(this).closest(".popup").toggleClass("hidden");
+})
+
+function popupHandler(){
+  $('.popup').toggleClass("hidden");
+}
 });
