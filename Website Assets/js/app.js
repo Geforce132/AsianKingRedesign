@@ -38,21 +38,3 @@ $(function(){
     $(menuContentArea).children()[index].classList.add("category-selected");
   });
 });
-
-//pop up stuff//
-$(function)(){
-$(".popup-handler, .popup-close").on("click", function(){
-  let popupSelector = $(this).attr("data-target");
-  //alert(popupSelector);
-  popupHandler(popupSelector);
-
-});
-
-$(".popup-close").on("click", function(){
-$(this).closest(".popup").toggleClass("hidden");
-})
-
-function popupHandler(){
-  $('.popup').toggleClass("hidden");
-}
-});
