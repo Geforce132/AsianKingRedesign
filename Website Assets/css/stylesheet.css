@@ -1517,7 +1517,7 @@ main .cart-next-button #cart-next {
   }
 
   main .price-banner {
-    width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1532,7 +1532,7 @@ main .cart-next-button #cart-next {
 }
 
 /* Desktop */
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 992px) {
 
   main .cart-progress .cart-progress-bar .progress-bar-line {
     width: 40%;
@@ -1565,7 +1565,7 @@ main .cart-next-button #cart-next {
   }
 
   main .price-banner {
-    width: 56%;
+    max-width: 62%;
   }
 
   main .cart-next-button #cart-next {
