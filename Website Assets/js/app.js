@@ -38,3 +38,22 @@ $(function(){
     $(menuContentArea).children()[index].classList.add("category-selected");
   });
 });
+
+
+$(function(){
+$(".popup-handler").on("click", function(e){
+  e.preventDefault;
+  let popupSelector = $(this).attr("data-target");
+  //alert(popupSelector);
+  popupHandler(popupSelector);
+
+});
+
+$(".popup-close").on("click", function(){
+$(this).closest(".popup").toggleClass("hidden");
+})
+
+function popupHandler(popup){
+  $(popup).toggleClass("hidden");
+}
+});
