@@ -59,6 +59,7 @@ table {
 :root {
   --primary-color: #E4A50D;
   --primary-color-transparent: rgba(228, 165, 13, 0.15);
+  --primary-color-overlay: rgba(228, 165, 13, 0.76);
   --dark-red: #870C17;
   --dark-red-transparent: rgba(135, 12, 23, 0.23);
   --red:#DB0014;
