@@ -1443,6 +1443,8 @@ input#card.form-control {
 	justify-content: center;
 	color: var(--black);
 	padding: 25vh;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .pageNotFound h1 {
@@ -2039,12 +2041,12 @@ main .specials-boxes {
 
  .specials-boxes:hover .overlay {
     opacity:1;
-  
+
  }
 
 
 @media only screen and (max-width:650px) {
-   
+
    .text-specials1 p {
     font-size: 1.0em;
    line-height:1.5;
@@ -2060,7 +2062,7 @@ main .specials-boxes {
   flex-flow:row;
   padding-left:130px;
  }
-   
+
 }
 @media only screen and (max-width:1024px) {
   .specials-box img {
@@ -2068,9 +2070,9 @@ main .specials-boxes {
  }
   .text-specials1 {
     width:80%;
-    
+
   }
-   
+
 }
 
 
