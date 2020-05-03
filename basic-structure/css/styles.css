@@ -424,3 +424,33 @@ img {
 
 
 /*end of hero component*/
+
+/*start of map*/
+.map{
+  overflow:hidden;
+  padding-bottom:30%;
+  position:relative;
+
+}
+.map iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position: absolute;
+}
+
+@media only screen and (max-width:650px) {
+  .map {
+    height: 50%;
+    width: 50%;
+  }
+   
+}
+@media only screen and (max-width:1024px) {
+  .map {
+    height:100%;
+    width:100%;
+    
+  }  }
+/*end of map*/
