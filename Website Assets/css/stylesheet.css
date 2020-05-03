@@ -235,7 +235,7 @@ select {
 	color: var(--dark-red);
 }
 
-button {
+button, #submit {
 	border: none;
 	padding: 10px 15px;
 	text-align: center;
@@ -248,15 +248,16 @@ button {
 	color: white;
 	font-size: 1rem;
 	border-radius: 2rem;
+	border: solid 2px transparent;
 }
 
-button:hover {
+button:hover  {
 	color: var(--dark-red);
 	background-color: white;
-	border-color: var(--dark-red);
-	border: var(--dark-red);
-	border-size: 3px;
+	border:solid 2px var(--dark-red);
 }
+
+
 
 /* Navigation */
 
@@ -820,10 +821,6 @@ fieldset {
 #submit {
 	width: 100%;
 	height: 60px;
-	border-radius: 2%;
-	border: none;
-	background-color: var(--dark-red);
-	color: var( --white);
 }
 
 .home-form h2 {
@@ -850,6 +847,7 @@ fieldset {
 .home-submit .fab.fa-facebook-square {
 	font-size: 2em;
 	padding-right: 10px;
+
 }
 
 .home-submit button {
@@ -859,6 +857,18 @@ fieldset {
 	border-radius: 2%;
 	border: none;
 	margin: 2.5%;
+
+}
+.sign-in-submit button a:hover{
+	color:#475993;
+	padding:0;
+	text-decoration:none!important;
+}
+.sign-in-submit button:hover{
+	background-color:var(--white);
+	border:solid 2px #475993;
+	padding:0;
+	color:#475993;
 }
 
 .home-submit button a {
@@ -878,6 +888,18 @@ fieldset {
 		width: 259px;
 		height: 51px;
 		align-self: center;
+	}
+	#submit:hover{
+		background-color:var(--white);
+		border: solid 2px var(--dark-red);
+
+	}
+
+	.sign-in-submit #submit:hover, .home-submit #submit:hover{
+		background-color:var(--white);
+		border: solid 2px var(--dark-red);
+		color:var(--dark-red);
+		padding:0;
 	}
 }
 
@@ -980,6 +1002,7 @@ fieldset {
 	width: 40px;
 	color: var(--white);
 	font-size: 1em;
+	border: solid 2px transparent;
 }
 
 .popup-container img {
@@ -1025,6 +1048,9 @@ fieldset {
 
 .sign-in-form a {
 	color: var(--dark-red);
+}
+.sign-in-form a:hover{
+	text-decoration: underline;
 }
 
 .logo-sign-in {
@@ -1076,6 +1102,7 @@ fieldset {
 	margin: 0;
 }
 
+
 .form-check {
 	display: flex;
 	flex-flow: row wrap;
@@ -1125,11 +1152,14 @@ fieldset {
 	display: none;
 }
 
-.sign-in-submit .fab.fa-facebook-square {
-	font-size: 2em;
-	padding-right: 10px;
+.sign-in-submit .fab.fa-facebook-square a{
+	font-size: 2em!important;
+	padding-right: 10px!important;
+	text-transform:none!important;
 }
-
+.fab.fa-facebook-square{
+	padding:5px;
+}
 .sign-in-submit button {
 	background-color: #475993;
 	width: 100%;
@@ -1222,6 +1252,9 @@ fieldset {
 		.logo-sign-in {
 			max-width: 20%;
 		}
+	.sign-in-md-container, .sign-in-form{
+		margin-top:5%;
+	}
 	}
 	@media screen and (min-width:1200px) {}
 }
