@@ -365,6 +365,8 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link, nav .navbar-collapse .navb
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 	color: var(--black);
 	text-align: center;
+	border-bottom: 3px solid transparent;
+	border-spacing: 1px;
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
