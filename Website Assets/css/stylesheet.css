@@ -244,8 +244,8 @@ button, #submit {
 	margin: 4px 2px;
 	cursor: pointer;
 	background-color: var(--dark-red);
-	text-transform: uppercase;
 	color: white;
+	font-family: inherit;
 	font-size: 1rem;
 	border-radius: 2rem;
 	border: solid 2px transparent;
@@ -365,6 +365,7 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link, nav .navbar-collapse .navb
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 	color: var(--black);
 	text-align: center;
+	border-bottom: 3px solid var(--white);
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
@@ -1650,11 +1651,22 @@ main .menu-item a {
 	color: var(--white);
 	background-color: var(--dark-red);
 	padding: 0.5rem 1.25rem;
+	border: solid 2px var(--dark-red);
 	margin-top: auto;
 }
 
-main .menu-item, main .menu-item img, main .menu-item a, main .menu-item .item-price {
+main .menu-item a:hover {
+	color: var(--dark-red);
+	background-color: var(--white);
+	border: solid 2px var(--dark-red);
+}
+
+main .menu-item, main .menu-item img, main .menu-item .item-price {
 	border-radius: 8px;
+}
+
+main .menu-item a {
+	border-radius: 2rem;
 }
 
 /* Tablet */
@@ -1819,11 +1831,19 @@ main .cart-next-button #cart-next {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	padding: 1rem 4rem 2rem 4rem;
-	border: none;
-	border-radius: 6%;
+	border: solid 2px var(--dark-red);
+	border-radius: 2rem;
+	color: var(--white);
 	background-color: var(--dark-red);
-	color: var( --white);
 	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+main .cart-next-button #cart-next:hover {
+	color: var(--dark-red);
+	background-color: var(--white);
+	border: solid 2px var(--dark-red);
 }
 
 /* Tablet */
@@ -1993,6 +2013,10 @@ main .cart-next-button #cart-next {
 	object-fit: cover;
 	object-position: center;
 	z-index: -1;
+}
+
+.map iframe {
+	width: 100%;
 }
 
 .section.boxes h2 {
