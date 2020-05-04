@@ -410,6 +410,10 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
 		align-items: flex-start;
 		align-content: flex-start;
 	}
+
+	nav a.navbar-brand {
+		background-position: center;
+	}
 }
 
 /* End of Navigation */
@@ -1138,7 +1142,6 @@ fieldset {
 .sign-in-submit #submit {
 	width: 100%;
 	height: 60px;
-	border-radius: 2%;
 	background-color: var(--dark-red);
 	border: none;
 	color: var( --white);
@@ -1165,7 +1168,6 @@ fieldset {
 	background-color: #475993;
 	width: 100%;
 	height: 60px;
-	border-radius: 2%;
 	border: none;
 	margin: 2.5%;
 }
@@ -1334,10 +1336,15 @@ fieldset {
 .billing-submit #submit {
 	max-width: 50%;
 	height: 60px;
-	border-radius: 2%;
+	color: var( --white);
 	background-color: var(--dark-red);
 	border: none;
-	color: var( --white);
+}
+
+.billing-submit #submit:hover {
+	color: var(--dark-red);
+	background-color: var(--white);
+	border: solid 2px var(--dark-red);
 }
 
 .billing-submit {
