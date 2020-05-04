@@ -2079,8 +2079,12 @@ main .specials-boxes {
  align-content: center;
  align-items:center;
  justify-content: center;
- flex-flow:row;
-  color:var(--primary-color);
+ flex-flow:column;
+  
+}
+.specials-header h2  {
+	 color:var(--primary-color);
+	 text-align:center;
 }
 
 .specials-header hr {
