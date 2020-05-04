@@ -921,6 +921,7 @@ fieldset {
 	}
 	.contact-image-container .home-contact-image, .contact-image-container .home-contact-image picture, .contact-image-container .home-contact-image picture img {
 		width: 100%;
+		margin-top:2%;
 	}
 }
 
