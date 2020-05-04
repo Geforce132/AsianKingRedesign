@@ -2036,6 +2036,8 @@ main .cart-next-button #cart-next:hover {
 .section.boxes h2 {
 	color: var(--primary-color);
 	font-size: 3.25em;
+	text-align: center;
+	line-height:3rem;
 }
 
 .section.boxes p {
