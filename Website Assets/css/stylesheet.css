@@ -359,6 +359,7 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link, nav .navbar-collapse .navb
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 1rem;
+	align-self: flex-end;
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
