@@ -1460,6 +1460,10 @@ input#card.form-control {
 	align-self: center;
 }
 
+.hero-content .hero-btn:hover {
+	background-color: var(--primary-color);
+}
+
 .hero-content .hero-image {
 	order: -1;
 	background: url("../images/hero-home.png") no-repeat;
