@@ -250,12 +250,11 @@ button, #submit {
 	border: solid 2px transparent;
 }
 
-button:hover  {
+button:hover {
 	color: var(--dark-red);
 	background-color: white;
-	border:solid 2px var(--dark-red);
+	border: solid 2px var(--dark-red);
 }
-
 
 /* Navigation */
 
@@ -364,7 +363,6 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link, nav .navbar-collapse .navb
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
 	color: var(--black);
 	text-align: center;
-
 	border-bottom: 3px solid transparent;
 	border-spacing: 1px;
 }
@@ -411,7 +409,6 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
 		align-items: flex-start;
 		align-content: flex-start;
 	}
-
 	nav a.navbar-brand {
 		background-position: center;
 	}
@@ -856,7 +853,6 @@ fieldset {
 .home-submit .fab.fa-facebook-square {
 	font-size: 2em;
 	padding-right: 10px;
-
 }
 
 .home-submit button {
@@ -866,18 +862,19 @@ fieldset {
 	border-radius: 2%;
 	border: none;
 	margin: 2.5%;
+}
 
+.sign-in-submit button a:hover {
+	color: #475993;
+	padding: 0;
+	text-decoration: none!important;
 }
-.sign-in-submit button a:hover{
-	color:#475993;
-	padding:0;
-	text-decoration:none!important;
-}
-.sign-in-submit button:hover{
-	background-color:var(--white);
-	border:solid 2px #475993;
-	padding:0;
-	color:#475993;
+
+.sign-in-submit button:hover {
+	background-color: var(--white);
+	border: solid 2px #475993;
+	padding: 0;
+	color: #475993;
 }
 
 .home-submit button a {
@@ -898,17 +895,15 @@ fieldset {
 		height: 51px;
 		align-self: center;
 	}
-	#submit:hover{
-		background-color:var(--white);
+	#submit:hover {
+		background-color: var(--white);
 		border: solid 2px var(--dark-red);
-
 	}
-
-	.sign-in-submit #submit:hover, .home-submit #submit:hover{
-		background-color:var(--white);
+	.sign-in-submit #submit:hover, .home-submit #submit:hover {
+		background-color: var(--white);
 		border: solid 2px var(--dark-red);
-		color:var(--dark-red);
-		padding:0;
+		color: var(--dark-red);
+		padding: 0;
 	}
 }
 
@@ -921,7 +916,7 @@ fieldset {
 	}
 	.contact-image-container .home-contact-image, .contact-image-container .home-contact-image picture, .contact-image-container .home-contact-image picture img {
 		width: 100%;
-		margin-top:2%;
+		margin-top: 2%;
 	}
 }
 
@@ -1059,7 +1054,8 @@ fieldset {
 .sign-in-form a {
 	color: var(--dark-red);
 }
-.sign-in-form a:hover{
+
+.sign-in-form a:hover {
 	text-decoration: underline;
 }
 
@@ -1112,7 +1108,6 @@ fieldset {
 	margin: 0;
 }
 
-
 .form-check {
 	display: flex;
 	flex-flow: row wrap;
@@ -1161,14 +1156,16 @@ fieldset {
 	display: none;
 }
 
-.sign-in-submit .fab.fa-facebook-square a{
+.sign-in-submit .fab.fa-facebook-square a {
 	font-size: 2em!important;
 	padding-right: 10px!important;
-	text-transform:none!important;
+	text-transform: none!important;
 }
-.fab.fa-facebook-square{
-	padding:5px;
+
+.fab.fa-facebook-square {
+	padding: 5px;
 }
+
 .sign-in-submit button {
 	background-color: #475993;
 	width: 100%;
@@ -1260,9 +1257,9 @@ fieldset {
 		.logo-sign-in {
 			max-width: 20%;
 		}
-	.sign-in-md-container, .sign-in-form{
-		margin-top:5%;
-	}
+		.sign-in-md-container, .sign-in-form {
+			margin-top: 5%;
+		}
 	}
 	@media screen and (min-width:1200px) {}
 }
@@ -2055,15 +2052,15 @@ main .cart-next-button #cart-next:hover {
 }
 
 .map iframe {
-	height:50vh;
-	width:100%;
+	height: 50vh;
+	width: 100%;
 }
 
 .section.boxes h2 {
 	color: var(--primary-color);
 	font-size: 3.25em;
 	text-align: center;
-	line-height:3rem;
+	line-height: 3rem;
 }
 
 .section.boxes p {
@@ -2079,104 +2076,98 @@ main .cart-next-button #cart-next:hover {
 /*start of specials */
 
 main .specials-boxes {
-   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  overflow:hidden;
-  position:relative;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
 }
 
 .specials-boxes img {
-  display:flex;
-  width:100%;
-  height:100%;
-  flex-direction: column;
-  flex-flow:column;
-  padding:10px;
-
-
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	flex-flow: column;
+	padding: 10px;
 }
+
 .specials-header {
- display:flex;
- align-content: center;
- align-items:center;
- justify-content: center;
- flex-flow:column;
-
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
 }
-.specials-header h2  {
-	 color:var(--primary-color);
-	 text-align:center;
+
+.specials-header h2 {
+	color: var(--primary-color);
+	text-align: center;
 }
 
 .specials-header hr {
-  display:flex;
- align-content: center;
- align-items:center;
- justify-content: center;
- flex-flow:column;
-  background-color: var(--primary-color);
-  width: 133px;
-  height: 7px;
-  border-radius: 50px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	background-color: var(--primary-color);
+	width: 133px;
+	height: 7px;
+	border-radius: 50px;
 }
 
- .box {
-    position: relative;
-    width:100%;
-    height: 100%;
-    display: inline-block;
-    border-radius:8px;
-    overflow:hidden;
- }
-.box img {
-  width:100%;
-  transition: all linear 0.7s;
+.box {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	border-radius: 8px;
+	overflow: hidden;
+}
 
+.box img {
+	width: 100%;
+	transition: all linear 0.7s;
 }
 
 img.hover-img {
-  position: absolute;
-  top:0;
-  left: 0;
-  opacity: 0;
-}
-.box:hover img{
-  opacity: 0;
-}
-.box:hover img.hover-img {
-  opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
 }
 
+.box:hover img {
+	opacity: 0;
+}
+
+.box:hover img.hover-img {
+	opacity: 1;
+}
 
 @media only screen and (max-width:650px) {
-
-
-  .specials-boxes img {
-  width:100%;
- }
- .specials-header h2 {
-  text-align: center;
-  justify-content:center;
-  align-items: center;
-  align-content: center;
-  flex-flow:row;
-
- }
-
+	.specials-boxes img {
+		width: 100%;
+	}
+	.specials-header h2 {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-flow: row;
+	}
 }
+
 @media only screen and (max-width:1024px) {
-  .specials-box img {
-  width:100%;
- }
-
-
+	.specials-box img {
+		width: 100%;
+	}
 }
-
 
 /*end of specials*/
 
@@ -2198,36 +2189,40 @@ img.hover-img {
 }
 
 /*end of chef*/
+
 /* Forgot password */
 
-.forgot-image{
+.forgot-image {
 	background: url("../images/forgot.png");
-  width:100%;
+	width: 100%;
 	height: auto;
 }
+
 .text-center {
 	text-align: center;
 }
 
-.card-form{
+.card-form {
 	display: flex;
-	flex-flow: row ;
+	flex-flow: row;
 	justify-content: center;
-align-content:space-between;
-align-items:center;
+	align-content: space-between;
+	align-items: center;
 }
-.card-form .card-body #forgotPassword{
+
+.card-form .card-body #forgotPassword {
 	display: flex;
 	flex-flow: row wrap;
-	align-items:center;
+	align-items: center;
 	align-content: space-around;
 	justify-content: center;
-	height:30vh;
+	height: 30vh;
+}
 
+.card-form .card-body input {
+	margin-top: 5%;
 }
-.card-form .card-body input{
-	margin-top:5%;
-}
+
 .card-body {
 	display: flex;
 	flex-flow: row wrap;
@@ -2237,7 +2232,7 @@ align-items:center;
 	width: 60vh;
 	padding: 2rem;
 	box-shadow: 0px 6px 5px -0px rgba(0, 0, 0, 0.23);
-	margin-bottom:10%;
+	margin-bottom: 10%;
 }
 
 .card-body hr {
@@ -2247,6 +2242,7 @@ align-items:center;
 	height: 7px;
 	border-radius: 50px;
 }
+
 .card-body label {
 	text-align: left;
 }
@@ -2254,18 +2250,18 @@ align-items:center;
 .card-body input {
 	width: 100%;
 }
-.card-title{ font-weight:300; }
 
-.passwordbtn{
+.card-title {
+	font-weight: 300;
+}
+
+.passwordbtn {
 	font-size: 14px;
-	margin-top:20px;
+	margin-top: 20px;
 }
 
-.login-form{
-	margin:20px;
+.login-form {
+	margin: 20px;
 }
-
-
-
 
 /* end of forgot password */
