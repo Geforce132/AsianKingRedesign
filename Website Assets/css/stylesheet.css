@@ -227,7 +227,7 @@ textarea {
 	border: solid 1px var(--light-gray);
 	border-radius: 1%;
 	padding: 2px;
-	height: 3em;
+	height: 10em;
 }
 
 select {
